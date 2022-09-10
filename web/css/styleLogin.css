@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#header{
+    align-items: flex-end;
+    margin-bottom: 70px;
+    height: 100px;
+    display: flex;
+    border-bottom: 1px #dadada solid;
+}
+#content{
+    margin-bottom: 70px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px #dadada solid;
+    height: 100px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-left: 170px;
+    background-color: #ee4b4b;
+    padding: 4px;
+    border-radius: 5px;
+}
+label{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: #08080B;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+h4, .forgotLink{
+    color: #08080B;
+    font-weight: 700;
+    font-size: 0.875em;
+    padding-bottom: 0.2em;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+.text-heading{
+    color: #E45D5D;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.text-discription{
+    padding: 16px 0;
+    color: #08080B;
+    display: block;
+}
+
+.row{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#content{
+    border: 1px #dadada solid;
+}
+.left{
+    padding: 32px;
+    border: 1px #dadada solid;
+    width: 50%;
+}
+.right{
+    padding: 32px;
+    border: 1px #dadada solid;
+    width: 50%;
+}
+input{
+    border: 1px solid #EEE;
+    outline-color: #E45D5D;
+    width: 96%;
+    font-size: 1em;
+    padding: 0.5em;
+}
+input[type="submit"],
+.linkRegister,.linkCancel{
+    background: #E45D5D;
+    color: #FFF;
+    font-size: 0.8em;
+    padding: 0.7em 1.2em;
+    border-radius: 5px;
+    border-bottom: 4px solid #B93838;
+    transition: 0.5s all;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    width: fit-content;
+}
+input[type="submit"]:hover,.linkRegister:hover {
+    background: #1C1C20;
+    border-bottom: 4px solid #333;
+}
